@@ -120,6 +120,7 @@ export default {
         })
         .then(res => {
             this.data = res.data.response
+            console.log(this.data)
         }).catch(err => {
             console.log(err)
         })
